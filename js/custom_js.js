@@ -87,5 +87,3 @@ function caluclateFinalScore(leftOutOptions, totalOptions){
      document.getElementById('finalScore').innerHTML = score;
 }
 window.onload = placeDiamods();
-
-
