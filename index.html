@@ -22,8 +22,7 @@
                <div class="container-fluid">
                     <div class="container">
                          <div class="row pushDown">
-                              <p class="text-center">Click on the question mark.There are 8 diamonds in 64 boxes. Once you get all 8 diamonds game will be over and you will get the score. To get maximum score try to compleate
-                              the game as many as chances left</p>
+                         <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#myModal1">How to play?</button>
                          </div><br/>
                     </div>
                </div>
@@ -68,6 +67,30 @@
                    </div>
                  </div>
           </div>
+
+
+                 <div class="modal fade" id="myModal1" role="dialog">
+                   <div class="modal-dialog modal-lg">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                         <h4 class="modal-title text-center">Here are the instuctions !!</h4>
+                       </div>
+                       <div class="modal-body">
+                         <ul class="list-unstyled">
+                           <li>There are 8 diamonds in 64 boxes.</li>
+                           <li>When click on the question mark if diamond is there it appears and if there is no diamond then it showes arrow for nearest diamond side</li>
+                           <li>Once you found all 8 diamonds game will be over</li>
+                           <li>To get hegher score try to find the diamonds as many as chances left</li>
+                         </ul>
+                       </div>
+                       <div class="modal-footer text-left">
+                         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+
      <!-- /Model -->
 
      <!-- jquery -->
